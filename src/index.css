@@ -3,6 +3,92 @@
 @tailwind utilities;
 
 
+/* Default for large screens (3500px and larger) */
+html {
+  overflow-x: hidden;
+  font-size: 140%;
+}
+
+/* For screens smaller than 3500px */
+@media (max-width: 3500px) {
+  html {
+    font-size: 250%;
+  }
+}
+/* For screens smaller than 3000px */
+@media (max-width: 3000px) {
+  html {
+    font-size: 220%;
+  }
+}
+/* For screens smaller than 2500px */
+@media (max-width: 2500px) {
+  html {
+    font-size: 200%;
+  }
+}
+/* For screens smaller than 2500px */
+@media (max-width: 2000px) {
+  html {
+    font-size: 180%;
+  }
+}
+
+/* For screens smaller than 1920px (standard desktops/laptops) */
+@media (max-width: 1920px) {
+  html {
+    font-size: 155%;
+  }
+}
+/* For screens smaller than 1600px (standard desktops/laptops) */
+@media (max-width: 1600px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+/* For screens smaller than 1440px (laptops, larger tablets) */
+@media (max-width: 1440px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+/* For screens smaller than 1285px (mid-sized laptops/tablets) */
+@media (max-width: 1280px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+/* For screens smaller than 1024px (tablets) */
+@media (max-width: 1024px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+/* For screens smaller than 768px (smaller tablets, landscape phones) */
+@media (max-width: 768px) {
+  html {
+    font-size: 80%;
+  }
+}
+
+/* For screens smaller than 480px (portrait phones) */
+@media (max-width: 480px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+/* For screens smaller than 320px (small phones) */
+@media (max-width: 320px) {
+  html {
+    font-size: 60%;
+  }
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
